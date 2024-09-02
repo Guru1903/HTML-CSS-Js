@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    background-image: url(31193.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border-radius: 20px;
+    border: 0.5px solid rgb(11, 241, 241);
+    background-color: rgb(252, 252, 252);
+    padding: 20px;
+    background: transparent;
+    filter: none;
+    backdrop-filter: blur(5px);
+    height: 320px;
+    box-shadow: 0px 0px 50px 5px rgb(61, 11, 241);
+}
+
+button{
+    width: 40%;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 3px;
+    border: 3px solid rgb(26, 151, 253);
+    background-color: rgb(81, 162, 255);
+    color: aliceblue;
+    font-style: oblique;
+    box-shadow: 0 0 20px 10px rgb(79, 32, 248);
+}
+
+input{
+    margin-top: 15px;
+}
+
+#value{
+    width: 75%;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+
+#celtofah, #fahtocel{
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: aquamarine;
+}
+
+h2{
+    color: rgb(1, 208, 245);
+}
+
+label{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 20px 2px red;
+
+}
+     
+
+
+h4{
+    color: red;
+}
+

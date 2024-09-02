@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bro code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h2>Temperature Conversation:</h2>
+        <input type="number" id="value" value="0">
+        <div>
+            <input type="radio" id="celtofah"  name="temp" ><label for="celtofah">Celsius to Fahrenhelt</label>
+        </div>
+        <div>
+            <input type="radio" id="fahtocel" name="temp"><label for="fahtocel">Fahrenhelt to Celsius</label>
+        </div>
+        <button onclick="Submit()">Submit</button>
+        <h4 id="print">0</h4>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
