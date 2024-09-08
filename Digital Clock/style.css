@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-image:url(lion-4k-hd-image-download-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(229, 240, 229);
+    font-size: 150px;
+    background: transparent;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 70px 20px rgb(255, 255, 255);
+    padding: 0 10px;
+    
+}
